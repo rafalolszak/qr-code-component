@@ -22,6 +22,7 @@ body{
     width: 100vw;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -64,8 +65,15 @@ body{
 }
 
 
+footer{
+    margin-top: 20px;
+}
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
